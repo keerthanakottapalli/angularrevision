@@ -1,0 +1,9 @@
+<!-- <p>reactives works!</p> -->
+<form [formGroup]="reactiveForm" (ngSubmit)="eventfun()">
+    Username: <input type="text" name="username" formControlName="un"><br><br>
+    Password: <input type="text" name="password" formControlName="pwd"><br><br>
+    Submit: <button (click)="eventhappens()">Submit</button>
+
+</form>
+<!-- <a routerLink="forms">templateform</a> -->
+<router-outlet></router-outlet>

@@ -1,0 +1,7 @@
+<!-- <p>forms works!</p> -->
+<br>
+<form #templateForm="ngForm" (ngSubmit)="loginForm(templateForm.value)">
+    user name: <input type="text" name="username" ngModel><br><br>
+    password: <input type="text" name="password" ngModel><br><br>
+    submit: <button>Submit</button>
+</form>
